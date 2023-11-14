@@ -1,20 +1,13 @@
 {
-	"author": "Jesse Hattabaugh<jessehattabaugh@protonmail.com>",
-	"bugs": {
-		"url": "https://github.com/jessehattabaugh/{{NAME}}/issues"
+	"devDependencies": {
+		"@architect/architect": "^10.16.1",
+		"@architect/sandbox": "^5.9.2",
+		"@playwright/test": "^1.39.0"
 	},
-	"description": "{{DESCRIPTION}}",
-	"homepage": "https://github.com/jessehattabaugh/{{NAME}}#readme",
-	"license": "UNLICENSED",
-	"name": "{{NAME}}",
 	"private": true,
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/jessehattabaugh/{{NAME}}.git"
-	},
 	"scripts": {
-		"test": "npx cowsay nothing to test"
+		"start": "arc sandbox",
+		"test": "npx playwright test"
 	},
-	"type": "module",
-	"version": "0.0.0"
+	"type": "module"
 }

@@ -1,1 +1,6 @@
 node_modules
+playwright-report
+prefs.arc
+sam.json
+sam.yaml
+test-results
